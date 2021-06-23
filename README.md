@@ -14,7 +14,7 @@ Criar uma interface que receba a quantidade de convidados para um churrasco, a d
 
 <h3>Dados pré-determinados:</h3>
 - Carnes ( 500 gramas / 700 gramas (+6h)) por pessoa.<br>
-- Cerveja ( 3500ml/5250ml (+6h) = (10 latas / 15 latas (+6h)) por pessoa. <br>
+- Cerveja ( 3500ml/5250ml (+6h)) = (10 latas / 15 latas (+6h)) por pessoa. <br>
 - Bebidas quentes (400ml/600ml(+6h) por pessoa. <br>
 - Refrigerante/ Água ou Suco  (1000 ml/ 1500ml(+6h)) por pessoa.<br><br>
 Preferi colocar refrigerantes e Bebidas quentes em litros, pq abrange todos os tipos de bebidas.
@@ -24,3 +24,7 @@ A conta sofreria um acréscimo caso o churrasco passe de 6 horas!
 👉👉👉 https://organizeseuchurrasco.netlify.app </h3>
 
 <h3>🎞 Captura de vídeo da tela:</h3>
+
+https://user-images.githubusercontent.com/84424883/123173685-577c3a80-d455-11eb-8b9a-9f4403ef4be1.mp4
+
+Obs: O projeto se manterá aberto para melhorias contínuas.
