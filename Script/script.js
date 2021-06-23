@@ -20,7 +20,7 @@ function calcular(){
         alert('Favor preencha todas as opções')
     } 
     else {
-    let adultos = document.getElementById("adultos").value ;                // encurtando o código, transferi os valores dos elementos para variaveis locais
+    let adultos = document.getElementById("adultos").value ;                // <<  encurtando o código, transferi os valores dos elementos para variaveis locais
     let criancas = document.getElementById("criancas").value ;
     let cerveja = document.getElementById("cerveja").value ;
     let alcool = document.getElementById("alcool").value ;
