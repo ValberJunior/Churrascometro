@@ -44,7 +44,7 @@ function calcular(){
     resultado.innerHTML += `<p onmouseover="clickOn(this)" onmouseout="clickOut(this)">${Math.ceil(((qtdTotalCarne / 100)* 25)/1000)} Kg de Linguiça</p>`;                                //Adicionando o resultado no html
     resultado.innerHTML += `<p onmouseover="clickOn(this)" onmouseout="clickOut(this)">${Math.ceil(qtdTotalCerveja / 350)} Latas de Cerveja</p>`;
     resultado.innerHTML += `<p onmouseover="clickOn(this)" onmouseout="clickOut(this)">${Math.ceil(qtdTotalBedidasA / 1000)} Litros de vodka ou Bebida quente.</p>`;
-    resultado.innerHTML += `<p onmouseover="clickOn(this)" onmouseout="clickOut(this)">${Math.ceil(qtdTotalBebidas / 1000)} Litros de Refrigerante ou Suco da Fruta</p><button id="delete" onclick="deleteAll()" onmouseover="mOn(this)" onmouseout="mOut(this)">Apagar Dados</button>`;
+    resultado.innerHTML += `<p onmouseover="clickOn(this)" onmouseout="clickOut(this)">${Math.ceil(qtdTotalBebidas / 1000)} Litros de Refrigerante, Suco e(ou) Água Mineral</p><button id="delete" onclick="deleteAll()" onmouseover="mOn(this)" onmouseout="mOut(this)">Apagar Dados</button>`;
     
 
       }
@@ -52,17 +52,17 @@ function calcular(){
 
 function carnePP(duracao){                                              //<< Função para calcular carne por pessoa
     if(duracao >= 6){
-        return 700;
+        return 600;
     } else{
-        return 500;
+        return 400;
     }
 }
 
 function cervejaPP(duracao){                                          //<< Função para calcular a quantidade de cerveja
     if(duracao >= 6){
-        return 2000;
+        return 3500;
     } else{
-        return 1200;
+        return 2100;
     }
 }
 
