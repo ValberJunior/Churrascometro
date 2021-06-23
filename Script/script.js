@@ -39,9 +39,9 @@ function calcular(){
 
 
 
-    resultado.innerHTML = `<p onmouseover="clickOn(this)" onmouseout="clickOut(this)">${Math.ceil(((qtdTotalCarne / 100)* 80)/1000)} Kg de Carne</p>`;
+    resultado.innerHTML = `<p onmouseover="clickOn(this)" onmouseout="clickOut(this)">${Math.ceil(((qtdTotalCarne / 100)* 75)/1000)} Kg de Carne</p>`;
     resultado.innerHTML += `<p onmouseover="clickOn(this)" onmouseout="clickOut(this)">${Math.ceil(((qtdTotalCarne / 100)* 10)/1000)} Kg de Asa de Frango</p>`; 
-    resultado.innerHTML += `<p onmouseover="clickOn(this)" onmouseout="clickOut(this)">${Math.ceil(((qtdTotalCarne / 100)* 10)/1000)} Kg de Linguiça</p>`;                                //Adicionando o resultado no html
+    resultado.innerHTML += `<p onmouseover="clickOn(this)" onmouseout="clickOut(this)">${Math.ceil(((qtdTotalCarne / 100)* 15)/1000)} Kg de Linguiça</p>`;                                //Adicionando o resultado no html
     resultado.innerHTML += `<p onmouseover="clickOn(this)" onmouseout="clickOut(this)">${Math.ceil(qtdTotalCerveja / 350)} Latas de Cerveja</p>`;
     resultado.innerHTML += `<p onmouseover="clickOn(this)" onmouseout="clickOut(this)">${Math.ceil(qtdTotalBedidasA / 1000)} Litros de vodka ou Bebida quente.</p>`;
     resultado.innerHTML += `<p onmouseover="clickOn(this)" onmouseout="clickOut(this)">${Math.ceil(qtdTotalBebidas / 1000)} Litros de Refrigerante, Suco e(ou) Água Mineral</p><button id="delete" onclick="deleteAll()" onmouseover="mOn(this)" onmouseout="mOut(this)">Apagar Dados</button>`;
