@@ -60,9 +60,9 @@ function carnePP(duracao){                                              //<< Fun
 
 function cervejaPP(duracao){                                          //<< Função para calcular a quantidade de cerveja
     if(duracao >= 6){
-        return 3500;
+        return 4200;
     } else{
-        return 2100;
+        return 2800;
     }
 }
 

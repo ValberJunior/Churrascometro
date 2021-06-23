@@ -141,3 +141,49 @@ footer{
     transform:translate(-50%, -50%);
 
 }
+/* Aqui começam as medias queries ----------------------------------------------------------*/
+
+@media screen and (max-width:600px){
+
+.banner {
+        height:250px;
+    
+    }
+
+}
+
+@media screen and (max-width:400px){
+
+    .banner {
+            height:200px;
+        
+        }
+
+        .container{
+            max-width: 250px;
+        
+        }   
+    
+    }
+
+@media screen and (max-width:200px){
+
+        .banner {
+                height:120px;
+            
+        } 
+
+        .container{
+            max-width: 160px;
+        
+        }   
+    
+        p { font-size:15px;}
+
+        input, input::placeholder,#resultado, #resultado p {
+            font-size:13px;
+        
+        }
+        
+
+        }   
