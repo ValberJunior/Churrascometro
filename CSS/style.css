@@ -6,6 +6,8 @@ body{
     background-image:url("../Assets/background.jpg");
     background-size:cover;
     background-attachment: fixed;
+    
+    background-color:#020100; /*Para redes lentas, caso demore carregar o background image*/
 
     font-family: 'Signika Negative', sans-serif;
 }
