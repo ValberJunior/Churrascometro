@@ -52,25 +52,25 @@ function calcular(){
 
 function carnePP(duracao){                                              //<< Função para calcular carne por pessoa
     if(duracao >= 6){
-        return 600;
+        return 700;
     } else{
-        return 400;
+        return 500;
     }
 }
 
 function cervejaPP(duracao){                                          //<< Função para calcular a quantidade de cerveja
     if(duracao >= 6){
-        return 4200;
+        return 5250;
     } else{
-        return 2800;
+        return 3500;
     }
 }
 
 function bebidasA(duracao){                        // << Função para calcular a quantidade de bebidas alcoólicas diferentes de cerveja;
     if(duracao >= 6){
-        return 800;
+        return 700;
     } else{
-        return 500;
+        return 400;
     }
 }
 
