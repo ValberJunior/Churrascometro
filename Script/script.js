@@ -38,8 +38,8 @@ function calcular(){
 
 
 
-
-    resultado.innerHTML = `<p onmouseover="clickOn(this)" onmouseout="clickOut(this)">${Math.ceil(((qtdTotalCarne / 100)* 65)/1000)} Kg de Carne</p>`;
+    resultado.innerHTML = `<h3 id="sugestao">Sugestão para o seu churrasco:</h3>`;
+    resultado.innerHTML += `<p onmouseover="clickOn(this)" onmouseout="clickOut(this)">${Math.ceil(((qtdTotalCarne / 100)* 65)/1000)} Kg de Carne</p>`;
     resultado.innerHTML += `<p onmouseover="clickOn(this)" onmouseout="clickOut(this)">${Math.ceil(((qtdTotalCarne / 100)* 15)/1000)} Kg de Asa de Frango</p>`; 
     resultado.innerHTML += `<p onmouseover="clickOn(this)" onmouseout="clickOut(this)">${Math.ceil(((qtdTotalCarne / 100)* 25)/1000)} Kg de Linguiça</p>`;                                //Adicionando o resultado no html
     resultado.innerHTML += `<p onmouseover="clickOn(this)" onmouseout="clickOut(this)">${Math.ceil(qtdTotalCerveja / 350)} Latas de Cerveja</p>`;
