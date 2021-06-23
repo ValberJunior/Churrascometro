@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHURRASCÔMETRO</title>
+    <link href="./Assets/icone.png" rel="icon" type="image/png">
+    <link href="./CSS/style.css" rel="stylesheet" type="text/css">
+     <!--Link das Fontes Google-->
+     <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header><img src="./Assets/banner.png" class="banner"></header>
+
+     <div class="container">     
+
+     <p onmouseover="clickOn(this)" onmouseout="clickOut(this)">Quantos adultos irão ao churrasco?</p>
+     <input type="number" id="adultos" name="adultos" placeholder="Digite o Número de convidados adultos" min="0">
+    
+     <p onmouseover="clickOn(this)" onmouseout="clickOut(this)">Quantas crianças irão ao churrasco?</p>
+     <input type="number" id="criancas" name="adultos" placeholder="Número crianças convidadas" min="0">
+
+     <p onmouseover="clickOn(this)" onmouseout="clickOut(this)">Quantos convidados consumirão cerveja?</p>
+     <input type="number" id="cerveja" name="cerveja" placeholder="Convidados que consumirão cerveja" min="0">
+
+     <p onmouseover="clickOn(this)" onmouseout="clickOut(this)">Quantos convidados consumirão outro tipo de bebida alcóolica?</p>
+     <input type="number" id="alcool" name="alcool" placeholder="Convidados que beberão álcool" min="0">
+
+
+     <p onmouseover="clickOn(this)" onmouseout="clickOut(this)">Qual será a duração do churrasco?</p>
+     <input type="number" id="duracao" name="duracao" placeholder="Digite a duração do evento, em Horas." min="0">
+    
+      <button onclick="calcular()" id="calcular" onmouseover="mOn(this)" onmouseout="mOut(this)">Calcular</button>
+       <button onclick="restaurar()" id="restaurar" onmouseover="mOn(this)" onmouseout="mOut(this)">Restaurar</button>
+
+     <div id="resultado"></div>
+    
+    </div>
+
+    <footer><a href="https://www.linkedin.com/in/valber-junior-238217b4/"><img src="./Assets/linekdin.png" type="image/png" alt="logo linekdin" class="lnk"></a></footer>
+
+<script src="./Script/script.js"></script>  
+</body>
+</html>
+
+
+<!-- REGRA DO CHURRASCOMETRO:
+
+Calcular qual a quantidade de comida
+e bebida para fazer um churrasco,
+dependendo do número de pessoas, se elas
+são adultas ou crianças e quanto tempo será
+a duração desse churrasco.
+
+Carne > 400 gr por pessoa + de 6 horas - 650
+Cerveja > 1200 ml por pessoa + 6 horas - 2000
+Refrigerante/agua 1000 ml por pessoa + 6 horas 1500ml
+
+crianças valem por 0,5 (meia pessoa)
+
+Diferenciais de upgrade:
+1- Poder distinguir se a carne é linguiça / Carne/ Frango
+3- Se a pessoa bebe cerveja ou não;
+
+
+Dados:
+
+Carnes > 500 gramas / 700 gramas (+6h)
+Cerveja > 1200ml/2000ml
+Bebidas quentes 500ml/800ml
+Refrigerante 1000 ml/ 1500ml;
+
+Preferi colocar refrigerantes e Bebidas quentes em litros, pq abrange todos os tipos de bebidas.
+-->
