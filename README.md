@@ -13,7 +13,7 @@ Criar uma interface que receba a quantidade de convidados para um churrasco, a d
 <p>✅Html5 intermediário;</p> 
 
 <h3>Dados pré-determinados:</h3>
-- Carnes ( 400 gramas / 600 gramas (+6h)) por pessoa.<br>
+- Carnes ( 500 gramas / 700 gramas (+6h)) por pessoa.<br>
 - Cerveja ( 3500ml/5250ml (+6h) = (10 latas / 15 latas (+6h)) por pessoa. <br>
 - Bebidas quentes (400ml/600ml(+6h) por pessoa. <br>
 - Refrigerante/ Água ou Suco  (1000 ml/ 1500ml(+6h)) por pessoa.<br><br>
