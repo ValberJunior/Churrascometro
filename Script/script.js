@@ -68,7 +68,7 @@ function cervejaPP(duracao){                                          //<< Funç
 
 function bebidasA(duracao){                        // << Função para calcular a quantidade de bebidas alcoólicas diferentes de cerveja;
     if(duracao >= 6){
-        return 700;
+        return 600;
     } else{
         return 400;
     }
