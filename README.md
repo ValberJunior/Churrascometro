@@ -25,6 +25,12 @@ A conta sofreria um acréscimo caso o churrasco passe de 6 horas!
 
 <h3>🎞 Captura de vídeo da tela:</h3>
 
-https://user-images.githubusercontent.com/84424883/123173685-577c3a80-d455-11eb-8b9a-9f4403ef4be1.mp4
+
+
+
+https://user-images.githubusercontent.com/84424883/123176383-b2179580-d459-11eb-82c7-9e0349cc140f.mp4
+
+
+
 
 Obs: O projeto se manterá aberto para melhorias contínuas.
