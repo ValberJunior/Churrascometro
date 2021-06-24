@@ -30,7 +30,9 @@ A conta sofreria um acréscimo caso o churrasco passe de 6 horas!
 
 
 
-https://user-images.githubusercontent.com/84424883/123178571-da08f800-d45d-11eb-8b7d-dca78b6fa94d.mp4
+https://user-images.githubusercontent.com/84424883/123282076-93101680-d4e0-11eb-88b4-f284f0059dd9.mp4
+
+
 
 
 
