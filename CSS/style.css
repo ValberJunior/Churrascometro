@@ -175,7 +175,7 @@ li{
 @media screen and (max-width:900px){
 
     .logo {
-            width:300px;
+            width:350px;
         
         }
     
@@ -184,12 +184,12 @@ li{
 @media screen and (max-width:600px){
 
     .logo {
-        width:200px;
+        width:250px;
     
     }    
 
 header {
-        height:250px;
+        height:300px;
     
     }
 
@@ -198,14 +198,9 @@ header {
 @media screen and (max-width:400px){
 
     .logo {
-        width:170px;
+        width:200px;
     
     }
-
-    header {
-            height:200px;
-        
-        }
 
         .container{
             max-width: 250px;
@@ -216,11 +211,6 @@ header {
 
     @media screen and (max-width:300px){
 
-        .logo {
-            width:130px;
-        
-        }
-
         .icone{
             width:40px;
         }
@@ -230,12 +220,12 @@ header {
 @media screen and (max-width:200px){
 
         .logo {
-            width: 90px;
+            width: 150px;
         
         }
 
         header {
-                height:120px;
+                height:220px;
             
         } 
 
