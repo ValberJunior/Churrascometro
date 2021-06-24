@@ -4,7 +4,7 @@
 ## Projeto desenvolvido para o módulo 10 do curso #ProgramadorBR.
 
 <h2>Funcionalidades:</h2>
-Criar uma interface que receba a quantidade de convidados para um churrasco, a duração do evento e retorne a quantidade necessessária para se fazer um bom churrasco.
+Criar uma interface que receba a quantidade de convidados para um churrasco, a duração do evento e retorne a quantidade necessária para se fazer um bom churrasco.
 
 <h2>Tecnologias utilizadas:</h2>
 
