@@ -7,10 +7,27 @@ body{
 
     font-family: 'Signika Negative', sans-serif;
 }
-.banner
+header
 {
     max-width: 100%;
+    height: 500px;
+
+    background-image:url(../Assets/background.jpg);
     background-size:cover;
+    background-attachment: fixed;
+
+    position:relative;
+
+}
+.logo{
+
+    width: 400px;
+
+
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
 
 }
 
@@ -144,7 +161,7 @@ li{
 
 .icone{
     width: 80px;
-    height: 80px;
+
 
 }
 #sugestao{
@@ -155,9 +172,23 @@ li{
 }
 /* Aqui começam as medias queries ----------------------------------------------------------*/
 
+@media screen and (max-width:900px){
+
+    .logo {
+            width:300px;
+        
+        }
+    
+    }
+
 @media screen and (max-width:600px){
 
-.banner {
+    .logo {
+        width:200px;
+    
+    }    
+
+header {
         height:250px;
     
     }
@@ -166,7 +197,12 @@ li{
 
 @media screen and (max-width:400px){
 
-    .banner {
+    .logo {
+        width:170px;
+    
+    }
+
+    header {
             height:200px;
         
         }
@@ -178,9 +214,27 @@ li{
     
     }
 
+    @media screen and (max-width:300px){
+
+        .logo {
+            width:130px;
+        
+        }
+
+        .icone{
+            width:40px;
+        }
+    }
+
+
 @media screen and (max-width:200px){
 
-        .banner {
+        .logo {
+            width: 90px;
+        
+        }
+
+        header {
                 height:120px;
             
         } 
@@ -203,4 +257,5 @@ li{
         }
         
 
-        }   
+        }
+       
